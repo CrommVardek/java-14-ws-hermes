@@ -1,4 +1,4 @@
-package hermes.ws.PatternMatching;
+package hermes.ws.pattern_matching;
 
 public class MyOtherImplementation implements MyInterface {
 

@@ -1,4 +1,4 @@
-package hermes.ws.SwitchExpressions;
+package hermes.ws.switch_expressions;
 
 public class OldSwitchExpression {
 

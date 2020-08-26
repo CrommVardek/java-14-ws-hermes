@@ -1,4 +1,4 @@
-package hermes.ws.PatternMatching.StreamExample;
+package hermes.ws.pattern_matching.StreamExample;
 
 import java.util.Set;
 
