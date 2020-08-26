@@ -8,12 +8,10 @@ public class NewSwitchExpression {
             case WEDNESDAY, THURSDAY -> 5;
             default -> 0;
         };
-
-        System.out.println(temp);
-
         return temp;
     }
 
+    // yield restricted word
     public static int thisWillReturnAPositiveValue(Day day){
         int j = switch (day) {
             case MONDAY  -> 1;
