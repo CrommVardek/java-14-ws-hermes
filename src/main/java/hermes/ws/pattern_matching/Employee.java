@@ -2,8 +2,13 @@ package hermes.ws.pattern_matching;
 
 public class Employee {
 
-    private int id;
+    private Long id;
     private String name;
+
+    public Employee(Long id, String name){
+        this.id = id;
+        this.name = name;
+    }
 
     //Before
     public boolean equalsBefore(Object o){
