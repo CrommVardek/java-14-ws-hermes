@@ -8,5 +8,16 @@ public record Range(int lo, int hi){
         }
     }
 
+    public Range(int hi){
+        this(0, hi);
+    }
+
+    //Override of methods possible.
+
+    //static methods and field also possible.
+
+    //declaration of other methods possible.
+
+
 }
 

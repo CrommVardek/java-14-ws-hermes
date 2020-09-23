@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class RangeTest {
 
+    // If two records are equals, their hashCode is equal as well.
     @Test
     public void twoRangesWithSameValuesAreEquals(){
         Range range1 = new Range(1,2);
